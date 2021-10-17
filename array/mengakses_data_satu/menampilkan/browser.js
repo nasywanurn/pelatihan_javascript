@@ -1,0 +1,1 @@
+document.getElementById('divid').innerHTML=nama_array[key];
