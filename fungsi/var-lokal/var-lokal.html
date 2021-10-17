@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="data"></div>
+        <div id="data2"></div>
+        <script>
+            fungsiMobil();
+            function fungsiMobil()
+            {
+                var namaMobil = "Avanza";
+                document.getElementById('data').innerHTML='Pemanggilan di dalam fungsi '+namaMobil;
+            }
+                document.getElementById('data2').innerHTML='Pemanggilan di luar fungsi '+namaMobil;
+        </script>
+        <!-- Outputnya ketika kita gunakan namaMobil di dalam fungsi maka akan tercetak 
+        sedangkan ketika kita gunakan di luar fungsi maka tidak dikenali. -->
+    </body>
+</html>

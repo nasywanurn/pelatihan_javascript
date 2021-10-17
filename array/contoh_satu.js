@@ -1,0 +1,1 @@
+var mobil = ["Avanza", "Agya", "Ayla"];
